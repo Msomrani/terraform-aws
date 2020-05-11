@@ -1,4 +1,4 @@
-#AWS-ECS
+# AWS-ECS
 
 This project aims to create an ECS cluster with container instances with Terraform.
 
@@ -15,13 +15,13 @@ In this cluster we need :
 
 
 
-** REQUIRED **
+**REQUIRED**
 You need to configure the assume role if you use it, if not you must comment it from the aws provider section.
 ```
 export TF_VAR_assume_role=''
 ```
 
-** Basic Usage **
+**Basic Usage**
 ```
 terraform init
 terraform plan
