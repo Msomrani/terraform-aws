@@ -80,5 +80,5 @@ variable "ecs_cluster_name" {
 variable "ecs_key_pair_name" {
   description = "EC2 key pair name"
   type        = string
-  default     = "ecs_key_pair"
+  default     = ""
 }

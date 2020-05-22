@@ -19,6 +19,7 @@ In this cluster we need :
 You need to configure the assume role if you use it, if not you must comment it from the aws provider section.
 ```
 export TF_VAR_assume_role=''
+export TF_VAR_ecs_key_pair=''
 ```
 
 **Basic Usage**
